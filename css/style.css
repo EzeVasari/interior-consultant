@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora&family=Montserrat:wght@200;400&display=swap');
 
 *{
     margin: 0;
@@ -46,4 +46,12 @@ header {
     font-family: 'Lora', serif;
     color: #FFF;
     margin-top: 50px;
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 200;
+    color: #FFF;
+    width: 65%;
+    margin-top: 30px;
 }
