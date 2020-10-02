@@ -55,3 +55,26 @@ header {
     width: 65%;
     margin-top: 30px;
 }
+
+.btn {
+    width: 200px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.btn a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.btn a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.btn span{
+    font-size: 1.5em;
+    margin: 25px 10px 0 10px;
+    font-weight: 900;
+}
