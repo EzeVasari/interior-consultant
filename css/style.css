@@ -78,3 +78,12 @@ header {
     margin: 25px 10px 0 10px;
     font-weight: 900;
 }
+
+.image {
+    margin-top: 35px;
+}
+
+.image img {
+    width: 100%;
+    min-height: 100%;
+}
