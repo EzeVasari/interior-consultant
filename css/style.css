@@ -87,3 +87,52 @@ header {
     width: 100%;
     min-height: 100%;
 }
+
+.card {
+    position: absolute;
+    background-color: #181719;
+    color: #FFF;
+    width: 75%;
+    margin-top: -15%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    box-shadow: 0 4px 4px -2px #000;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.profile img {
+    width: 50px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.name {
+    font-weight: 500;
+}
+
+.career {
+    font-size: 13px;
+    font-weight: 500;
+    color: gray;
+    margin-top: 3%;
+}
+
+.card h2 {
+    width: 70%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-family: 'Lora';
+    font-weight: 500;
+}
