@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <title>Interior Consultant - Eze Vasari</title>
 </head>
 <body>
     <header>
         <div class="logo">THIS INTERIOR</div>
-        <div class="menu">
+    
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbox-btn">
+                <i class="fa fa-bars" id="i"></i>
+            </label>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Collections</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- <div class="menu">
             <img src="img/menu.png" alt="">
-        </div>
+        </div> -->
     </header>
     <main>
         <div class="title">
@@ -41,5 +55,27 @@
         <hr>
         <p>EzeVasari @ DevChallenge.io</p>
     </footer>
+    <script>
+        
+        const check = document.querySelector('#check');
+        const i = document.getElementById("i");
+        
+        check.addEventListener('click', function(e) {
+            const check = document.getElementById("check").checked;
+        
+            if(check){
+                i.classList.remove("fa");
+                i.classList.remove("fa-bars");
+                i.classList.add("fas");
+                i.classList.add("fa-times");
+            } else {
+                i.classList.remove("fas");
+                i.classList.remove("fa-times");
+                i.classList.add("fa");
+                i.classList.add("fa-bars");
+            }
+        });
+        
+    </script>
 </body>
 </html>
