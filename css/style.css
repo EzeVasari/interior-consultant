@@ -171,7 +171,6 @@ main {
 
 footer {
     width: 100%;
-    bottom: 0;
     margin-top: 200px;
     text-align: center; 
 }
@@ -184,7 +183,7 @@ hr {
 footer p {
     color: gray;
     font-weight: 600;
-    margin: 2%;
+    margin: 20px 0;
 }
 
 @media (max-width: 890px) {
@@ -232,7 +231,34 @@ footer p {
     
     main {
         display: flex;
+        margin-top: 70px;
     }
-}
 
+    .container-text {
+        width: 50%;
+    }
+    
+    .title {
+        margin-top: 30px;
+    }
+    
+    .text {
+        width: 50%;
+    }
+
+    .image {
+       width: 50%;
+       text-align: center;
+    }
+
+    .card {
+        width: 40%;
+        left: 45%;
+    }
+
+    hr {
+        display: none;
+    }
+
+}
 
